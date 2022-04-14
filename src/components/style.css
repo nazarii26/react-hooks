@@ -26,6 +26,43 @@
 	width: 100%;
 }
 
+.context__block {
+	padding: 30px;
+	width: 25%;
+}
+
+.context__button {
+	margin-left: 8%;
+	margin-top: 30px;
+	appearance: button;
+	background-color: #17c926;
+	border: 1px solid #16f03a;
+	border-radius: 4px;
+	box-sizing: border-box;
+	color: #ffffff;
+	cursor: pointer;
+	font-size: 14px;
+	line-height: 1.15;
+	overflow: visible;
+	padding: 12px 16px;
+	position: relative;
+	text-align: center;
+	text-transform: none;
+	transition: all 80ms ease-in-out;
+	user-select: none;
+	width: fit-content;
+}
+
+.context__button:hover {
+	background-color: #0ae439;
+	border-color: #0ae427;
+}
+
+.context__button:active {
+	background-color: #00d748;
+	border-color: #00d773;
+}
+
 footer {
 	position: absolute;
 	bottom: 0;

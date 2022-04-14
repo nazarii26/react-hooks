@@ -1,15 +1,14 @@
+import { useState, useEffect } from 'react';
 import { Route, Routes, Navigate } from "react-router-dom";
 import { HomePage, AboutPage, LoginPage } from "./pages";
 import './App.css';
 import { Layout } from "./components/Layout";
-import { useState, useEffect } from 'react';
-
 
 
 
 function App() {
   const [user, setUser] = useState(null);
-
+ 
   useEffect(() => {
     const userStatus = localStorage.getItem("user");
 
