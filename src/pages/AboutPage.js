@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import { ContextButton } from '../components/ContextButton'
 import { themes, ThemeContext } from '../contexts/theme-context'
+import { Counter } from '../components/Counter'
 
 
 
@@ -18,6 +19,8 @@ export const AboutPage = () => {
         <ContextButton />
       </ThemeContext.Provider>
       <button className="context__button" onClick={toggleTheme}>use context!</button>
+      <br />
+      <Counter />
     </>
   )
 }
