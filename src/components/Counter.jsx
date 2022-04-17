@@ -44,11 +44,13 @@ export const Counter = () => {
 	})
 
 	return (
-		<>
+		<div className="counter_block">
+			<h2>it is a useReducer</h2>
+
 			<button className="counter__button" onClick={() => dispatch(decrement(2))}>-2</button>
 			<button className="counter__button" onClick={() => dispatch(decrement(1))}>-1</button>
 
-			<span>{state.counter}</span>
+			<span> {state.counter} </span>
 
 			<button className="counter__button" onClick={() => dispatch(increment(1))}>+1</button>
 			<button className="counter__button" onClick={() => dispatch(increment(2))}>+2</button>
@@ -57,7 +59,6 @@ export const Counter = () => {
 				type: 'reset',
 			})}>reset</button>
 
-
-		</>
+		</div>
 	)
 }

@@ -6,6 +6,7 @@ export const ContextButton = () => {
 
 	return (
 		<>
+			<h2>it is a useContext, useState, useEffect</h2>
 			<div className="context__block" style={{ background: theme.background, color: theme.textColor }}>
 				<h1>showing context</h1></div>
 		</>
