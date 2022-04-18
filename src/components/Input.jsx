@@ -10,7 +10,7 @@ export const Input = () => {
 		<div>
 			<h2>it is a useRef</h2>
 			<input type="text" ref={ref} placeholder='type a text' />
-			<button onClick={handleFocus}>Focus</button>
+			<button onClick={handleFocus}>Focus-pocus</button>
 		</div>
 	)
 }

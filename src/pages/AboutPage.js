@@ -3,6 +3,9 @@ import { ContextButton } from '../components/ContextButton'
 import { themes, ThemeContext } from '../contexts/theme-context'
 import { Counter } from '../components/Counter'
 import { Input } from '../components/Input'
+import { Memorized } from '../components/Memorized'
+import { CallbackExample } from '../components/CallbackExample'
+import '../App.css'
 
 
 
@@ -24,6 +27,11 @@ export const AboutPage = () => {
       <Counter />
       <br />
       <Input />
+      <br />
+      <Memorized />
+      <br />
+      <CallbackExample />
+      <br />
     </div>
   )
 }

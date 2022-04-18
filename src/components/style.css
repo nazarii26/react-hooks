@@ -32,7 +32,6 @@
 }
 
 .context__button {
-	margin-left: 8%;
 	margin-top: 30px;
 	appearance: button;
 	background-color: #17c926;
@@ -63,6 +62,9 @@
 	border-color: #00d773;
 }
 
+.last__counter {
+	margin-bottom: 50px;
+}
 
 footer {
 	position: absolute;
@@ -71,8 +73,9 @@ footer {
 	justify-content: center;
 	align-items: center;
 	background-color: grey;
-	height: 40px;
+	height: 20px;
 	color: #fff;
+	display: none;
 }
 
 .footer-name {
